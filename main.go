@@ -109,6 +109,8 @@ func (s *Server) handleConnection(conn net.Conn) {
 
 	// Log Client Address which is Initiating the Connection
 	fmt.Printf("\nConnection initiatied from %s", conn.RemoteAddr().String())
+
+	// TODO implement Kafka Protocol handling
 }
 
 func main() {
